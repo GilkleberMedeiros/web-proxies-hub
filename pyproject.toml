@@ -1,0 +1,14 @@
+[project]
+name = "web-proxies-hub"
+version = "0.1.0"
+description = "This lib join various web proxy services around internet, free or paid by serving they to you under a commom interface."
+readme = "README.md"
+authors = [
+    { name = "Gilkleber Medeiros", email = "gikimedei2018@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.9.14,<0.10.0"]
+build-backend = "uv_build"
