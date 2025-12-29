@@ -7,7 +7,9 @@ authors = [
     { name = "Gilkleber Medeiros", email = "gikimedei2018@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "requests>=2.32.5",
+]
 
 [build-system]
 requires = ["uv_build>=0.9.14,<0.10.0"]
